@@ -1,0 +1,12 @@
+(module 2x2_edge_header_new (layer F.Cu) (tedit 55A49381)
+  (fp_text reference P5 (at 0.5334 2.7178) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text value CONN_02X02 (at 7.874 -0.5842) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (pad 1 connect rect (at 0 -2.54) (size 6.35 1.524) (layers B.Cu B.Mask))
+  (pad 3 connect rect (at 0 0) (size 6.35 1.524) (layers B.Cu B.Mask))
+  (pad 2 connect rect (at 0 -2.54) (size 6.35 1.524) (layers F.Cu F.Mask))
+  (pad 4 connect rect (at 0 0) (size 6.35 1.524) (layers F.Cu F.Mask))
+)
